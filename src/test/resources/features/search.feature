@@ -75,4 +75,3 @@ Feature: Sample
     Given  User is in the landing page
     When   he clicks on search button
     Then   he should see All categories, Home, Number of items options
-

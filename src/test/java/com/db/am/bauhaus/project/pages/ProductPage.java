@@ -13,7 +13,6 @@ public class ProductPage extends PageObject {
         super(driver);
     }
 
-
     public String getHeaderText() {
         return productPageHeader.waitUntilPresent().getText();
 
